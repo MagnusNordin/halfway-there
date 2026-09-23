@@ -2,16 +2,19 @@
   "name": "halfway-there",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+    "homepage": "https://magnor.github.io/halfway-there",
+    "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
-  "dependencies": {
+    "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "mapbox-gl": "^2.17.0"
+    "mapbox-gl": "^2.15.0"
   },
+    "gh-pages": "^4.0.0",
   "devDependencies": {
     "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.0",
